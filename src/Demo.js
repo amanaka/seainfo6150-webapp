@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import JSConcepts from "./component-examples/JSConcepts.js";
 import HelloUser from "./component-examples/HelloUser.js";
@@ -50,5 +51,17 @@ const Demo = ({ querystring }) => {
 
   return <div className="Demo">{content}</div>;
 };
+=======
+import React from 'react';
+import AddingMachine from './component-examples/AddingMachine.js';
+
+const Demo = () => {
+  return (
+    <div className="Demo">
+      <AddingMachine startNum={0} />
+    </div>
+  );
+}
+>>>>>>> 9dcf61c405eddd096cc274c88174c6529e6b7ff1
 
 export default Demo;

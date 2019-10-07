@@ -1,0 +1,15 @@
+h2 {
+    font-size: 30px;
+    color: FireBrick;
+    margin: 0;
+}
+article {
+    background:Gainsboro;
+    border: 2px solid FireBrick;
+    padding: 15px;
+    margin: 0;
+}
+time {
+    font-size: 15px;
+    font-weight: bold;
+}

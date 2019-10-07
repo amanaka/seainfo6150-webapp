@@ -18,4 +18,4 @@ ArticleList.propTypes = {
   articles: PropTypes.array.isRequired
 };
 
-export default ArticleList;
+export default ArticleList; 

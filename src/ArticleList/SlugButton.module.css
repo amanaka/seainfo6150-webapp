@@ -1,6 +1,8 @@
 #slugButton {
-    background:firebrick	;
-    color: white;
+    background:FireBrick	;
+    border: 1px solid FireBrick;
+    border-radius: 5px;
+    color: White;
     font-size: 15px;
     float: right;
 }

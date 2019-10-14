@@ -1,0 +1,12 @@
+#image {
+    border: 0.5rem;
+    border-style: solid;
+    border-color: FireBrick;
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.2rem 0.8rem Black;
+    width: 10rem;
+    float: left;
+    margin-inline-end: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+}

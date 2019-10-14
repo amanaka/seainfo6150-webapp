@@ -4,9 +4,10 @@ h2 {
     margin: 0;
 }
 article {
-    background:Gainsboro;
-    border: 2px solid FireBrick;
-    padding: 15px;
+    background-image: linear-gradient(to right, FireBrick, 3%, WhiteSmoke 15%);
+    border: 1px solid FireBrick;
+    border-radius: 10px;
+    padding: 30px;
     margin: 0;
 }
 time {

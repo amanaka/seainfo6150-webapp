@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SlugButton from './SlugButton.jsx';
-import './ArticleListItem.module.css'
+import './ArticleListItem.module.css';
+import ArticleImage from './ArticleImage';
 
 const ArticleListItem = props => {
     return(
     <article>
+        <ArticleImage title = {props.article.title} url = {props.article.image._url}/>
         <header>
             <h2>{props.article.title}</h2>
         </header>

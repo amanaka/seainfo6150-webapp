@@ -4,13 +4,12 @@ import styles from "./SlugButton.module.css";
 
 const SlugButton = (props) => {
   return (
-    <button id={styles.slugButton} onClick={() => alert(props.articles.slug)}>
-        {props.text}
-    </button>  
+    <button className={styles.button} onClick={() => alert(props.info.slug)}>
+    {props.info.author}
+    </button>
   );
 }
 SlugButton.propTypes = {
-    button: PropTypes.object.isRequired,
-    text:PropTypes.string.isRequired
+    button: PropTypes.object.isRequired
 };
 export default SlugButton;

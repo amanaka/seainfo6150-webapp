@@ -14,7 +14,8 @@ const ArticleListItem = props => {
         <p>{props.article.shortText}</p>
         <div>
             <time dateTime = {props.article.pubYear}>{props.article.pubDate}</time>
-            {<SlugButton button = {props.article} text={props.article.author}/>}
+            <SlugButton info={props.article}>
+            </SlugButton>
         </div>       
     </article>
     );

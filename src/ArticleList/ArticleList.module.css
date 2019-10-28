@@ -1,12 +1,17 @@
 ul {
     background: DarkGray;
     margin: 30px;
-    padding: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
 }
 
 li {
     list-style-type: none;
-    margin: 25px;
+    background-image: linear-gradient(to right, FireBrick, 3%, WhiteSmoke 15%);
+    margin: 10px;
+    padding: 20px;
     box-shadow: 0 6px 8px 0 DimGray; 
     border: 1px solid FireBrick;
     border-radius: 10px;

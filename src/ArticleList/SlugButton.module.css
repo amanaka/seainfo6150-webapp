@@ -1,8 +1,10 @@
 .button {
     background:FireBrick	;
-    border: 1px solid FireBrick;
+    border: 1px solid white;
     border-radius: 5px;
     color: White;
     font-size: 15px;
-    float: right;
+    float: bottom;
+    width: 100%;
+    height: 30px;
 }

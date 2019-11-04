@@ -1,5 +1,5 @@
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: FireBrick;
 }
 time {
@@ -8,8 +8,8 @@ time {
 }
 .button{
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 .flexContainer{
     font-size: 15px;
@@ -18,4 +18,31 @@ time {
     justify-content: space-between;
     flex-flow: column nowrap;
     min-height: 100%;
-  }
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 15px;
+    }
+    time {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 18px;
+    }
+    time {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 20px;
+    }
+    time {
+        font-size: 14px;
+    }
+}

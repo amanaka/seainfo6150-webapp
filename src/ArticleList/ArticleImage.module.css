@@ -4,9 +4,27 @@
     border-color: FireBrick;
     border-radius: 50%;
     box-shadow: 0.1rem 0.2rem 0.8rem Black;
-    width: 10rem;
+    width: 50%;
     float: upper;
-    margin-inline-end: 1rem;
-    margin-top: 0rem;
-    margin-bottom: 2rem;
+    margin-inline-start: 1%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    #image {
+      width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #image {
+        width: 65%;
+      }
+}
+
+@media screen and (max-width: 1200px) {
+    #image {
+        width: 55%;
+      }
 }

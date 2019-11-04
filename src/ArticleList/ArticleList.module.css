@@ -1,18 +1,51 @@
 ul {
     background: DarkGray;
     margin: 30px;
-    padding: 20px;
+    padding: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 
 li {
     list-style-type: none;
     background-image: linear-gradient(to right, FireBrick, 3%, WhiteSmoke 15%);
-    margin: 10px;
     padding: 20px;
     box-shadow: 0 6px 8px 0 DimGray; 
     border: 1px solid FireBrick;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        margin: 15px;
+        padding: 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    ul {
+        margin: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    ul {
+        margin: 25px;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
 }
